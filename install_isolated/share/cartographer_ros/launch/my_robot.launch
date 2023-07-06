@@ -14,6 +14,9 @@
   limitations under the License.
 -->
 
+<!-- rplidar노드 실행해서 cartographer 노드가 scan 토픽을 받고, 이 노드가
+submap 토픽을 발행해 cartographer_occupancy_grid_node 노드가 받아서 map을 만드는 매핑-->
+
 <launch>
   <param name="robot_description"
     textfile="$(find cartographer_ros)/urdf/my_robot.urdf" />

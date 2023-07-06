@@ -8,6 +8,8 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/ubuntu/cartographer_ws/devel/.private/cartographer_rviz:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/ubuntu/cartographer_ws/devel/.private/cartographer_rviz/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/ubuntu/cartographer_ws/devel/.private/cartographer_rviz/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/ubuntu/cartographer_ws/build/cartographer_rviz'
 export ROSLISP_PACKAGE_DIRECTORIES="/home/ubuntu/cartographer_ws/devel/.private/cartographer_rviz/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/ubuntu/cartographer_ws/src/cartographer_ros/cartographer_rviz:$ROS_PACKAGE_PATH"

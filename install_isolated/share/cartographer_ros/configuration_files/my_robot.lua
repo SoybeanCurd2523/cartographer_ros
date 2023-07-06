@@ -58,9 +58,7 @@ TRAJECTORY_BUILDER_2D.use_imu_data = false
 -- TRAJECTORY_BUILDER_2D.num_accumulated_range_data = 10
 TRAJECTORY_BUILDER_2D.use_online_correlative_scan_matching = true
 
-TRAJECTORY_BUILDER.pure_localization_trimmer = {
-  max_submaps_to_keep = 3,
-}
+
 
 POSE_GRAPH.optimize_every_n_nodes = 0
 
